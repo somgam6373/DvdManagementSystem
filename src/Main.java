@@ -20,12 +20,7 @@ public static void main(String[] args) {
                 "root",'0211");
 
         stmt = conn.createStatement();
-        rs=stmt.executeQuery("select * from movie")
-
-
-
-
-
+        rs=stmt.executeQuery("select * from movie");
 
     }catch (SQLException ex) {
         //Handle errors for JDBC
